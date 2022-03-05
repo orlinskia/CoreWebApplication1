@@ -25,7 +25,7 @@ namespace CoreWebApplication1.Models
         [Column("job_id", TypeName = "varchar(10)")]
         public string JobId { get; set; } = null!;
         [Column("salary", TypeName = "decimal")]
-        public byte[]? Salary { get; set; }
+        public decimal Salary { get; set; }
         [Column("commission_pct", TypeName = "number")]
         public byte[]? CommissionPct { get; set; }
         [Column("manager_id", TypeName = "integer(3)")]
